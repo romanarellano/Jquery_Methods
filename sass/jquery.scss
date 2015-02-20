@@ -12,7 +12,7 @@ div{
   position:relative;
   width:40%;
   display:block;
-  left:8em;
+  left:7em;
   height:5%;
   margin:1em 21em;
   background:darkorange;
@@ -40,15 +40,14 @@ p{
 
 button{
 
-  margin: 0.5em 0.5em;
+  margin: 2.5em 0.5em;
   padding:1em 2em;
-  text-decoration: none;
   border-radius:0px;
   color:darkgrey;
   font-weight: bolder;
   background:purple;
   font-size:1em;
-  box-shadow: 2px 2px 2px yellow;
+  box-shadow: 2px 2px 4px yellow;
 }
 
 
@@ -61,7 +60,7 @@ button{
   background:black;
   border:none;
   margin-bottom:1em;
-  box-shadow:none;
+ 
 
 }
 
@@ -75,14 +74,12 @@ button{
   padding:0 0 0 8em;
   width:20%;
   left:13%;
-
   margin-top:3em;
   
-
 }
 
 b{
   left:45%;
-  margin: auto;
+
 }
 
