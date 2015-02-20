@@ -18,7 +18,7 @@ a DOM structure.
           } 
 
           else {
-             pTag.wrap( "<div>" );
+             pTag.wrap( "<div></div>" );
           }
 
      });
