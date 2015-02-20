@@ -46,21 +46,9 @@ is also removed.
 var a,h;
 $(".remove").click(function(){
 
-    a = $( ".names","p" ).remove();
-
-      if(typeof a === undefined){
-
-         g = "<b>what</b>";
-
-         g.appendTo("body");
+    a = $( ".names" ).remove();
+    b = $("p").remove();
     
-   }
-   else {
-
-     h = "<b>whatsup</b>";
-    h.appendTo("body");
-   }
-
 });
 
 /*The empty() method removes all child nodes and content from the selected elements.
