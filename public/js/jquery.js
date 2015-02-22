@@ -61,7 +61,7 @@ $(".remove").click(function(){
 
 $(".empty").click(function(){
 
-  $(".names").empty();
+  $("p").empty();
       
 });
 
@@ -97,14 +97,14 @@ $(".before").click(function(){
 
 $(".insertAfter").click(function(){
 
-  $("p").insertAfter(".names");
+  $("p").insertAfter($(".names"));
 
 });
 
 $(".insertBefore").click(function(){
 
-  $("p").insertBefore($(".names"));
+  $("p").insertBefore(".names");
 
-});
+  });
 
 });
