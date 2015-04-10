@@ -3,11 +3,11 @@
 run with http-server
 
 jquery-methods used:
-wrap
-detach
-remove
-empty
-after
-before
-insert after
-insert before
+wrap,
+detach,
+remove,
+empty,
+after,
+before,
+insert after,
+insert before,
