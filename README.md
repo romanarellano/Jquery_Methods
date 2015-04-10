@@ -6,7 +6,7 @@ jquery-methods used:
 wrap
 detach
 remove
-empty 
+empty
 after
 before
 insert after
